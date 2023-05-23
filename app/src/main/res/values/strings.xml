@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FoodHunt</string>
+    <string name="title_home">Home</string>
+    <string name="title_maps">maps</string>
+
+    <string name="user_image">User Image</string>
+    <string name="text_hello">Have a Good Day, Ramadhani</string>
+    <string name="text_categories">Categories</string>
+    <string name="categories_meat">Meat</string>
+    <string name="categories_healthy">Healthy</string>
+    <string name="categories_snacks">Snacks</string>
+    <string name="categoriesMeat">Meat</string>
+    <string name="CategoriesHealthy">Healthy</string>
+    <string name="text_hello2">Indonesian Traditional Food</string>
+    <string name="sumatera">Sumatera</string>
+    <string name="jawa">Jawa</string>
+    <string name="kalimantan">Kalimantan</string>
+    <string name="bali">Bali</string>
+    <string name="sulawesi">Sulawesi</string>
+    <string name="papua">Papua</string>
+    <string name="floatingactionbutton">FloatingActionButton</string>
+
+    <string name="snap_camera">Turn snap into reality!</string>
+    <string name="button_text">Button</string>
+    <string name="gallery">Gallery</string>
+<!--    <string name="spelatonertext3">"-4,  5, -5,   6,  -6,"</string>-->
+
+
+</resources>
