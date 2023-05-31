@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">FoodHunt</string>
     <string name="title_home">Home</string>
-    <string name="title_maps">maps</string>
+    <string name="title_maps">Maps</string>
+    <string name="title_article">Article</string>
 
     <string name="user_image">User Image</string>
     <string name="text_hello">Have a Good Day, Ramadhani</string>
@@ -23,7 +24,53 @@
     <string name="snap_camera">Turn snap into reality!</string>
     <string name="button_text">Button</string>
     <string name="gallery">Gallery</string>
-<!--    <string name="spelatonertext3">"-4,  5, -5,   6,  -6,"</string>-->
 
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="food_title">Food Title</string>
+    <string name="food_description">Food Description</string>
+    <string name="food_recipe">Food Recipe</string>
+    <string name="article">article</string>
+
+    <string name="title_ketoprak">Ketoprak</string>
+    <string name="title_klepon">Klepon</string>
+    <string name="title_martabak_manis">Martabak Manis</string>
+    <string name="title_pecel_sayur">Pecel Sayur</string>
+    <string name="title_pempek">Pempek</string>
+    <string name="title_pepes_ikan">Pepes Ikan</string>
+    <string name="title_perkedel">Perkedel</string>
+    <string name="title_putu_ayu">Putu Ayu</string>
+    <string name="title_sate_lilit">Sate Lilit</string>
+    <string name="title_sop_buntut">Sop Buntut</string>
+    <string name="title_mendoan">Mendoan</string>
+    <string name="title_papeda">Papeda</string>
+
+    <string name="desc_ketoprak">Makanan ketoprak dibuat dari kombinasi tahu goreng, lontong, bihun, tauge, kol, dan mentimun. Kemudian diakhiri dengan siraman saus kacang yang kental dan kecap manis. Tak lupa kerupuk untuk melengkapi hidangan tradisional ini.
+    Ketoprak dibuat dengan mencampur bumbu dari bawang putih, kacang tanah, dan cabai yang kemudian diulek menjadi satu lalu disiram di atas bahan-bahan yang saat itu ia miliki, yaitu bihun, tahu, dan ketupat.</string>
+    <string name="desc_klepon">Klepon atau kelepon merupakan makanan tradisional atau kue tradisional khas Indonesia yang termasuk dalam kelompok jajanan pasar. Jajanan ini terbuat dari tepung beras ketan yang dibentuk seperti bola-bola kecil dan diisi gula merah, lalu direbus dalam air mendidih.
+    Klepon yang sudah matang, digulingkan di atas parutan kelapa agar melekat, sehingga klepon tampak berbalur parutan kelapa yang gurih yang bisa menambah cita rasa. Ketika digigit, gula merah akan meleleh memenuhi mulut, memberikan sensasi manis khas. Biasanya, klepon diletakkan di wadah yang terbuat dari daun pisang.
+    </string>
+    <string name="desc_martabak_manis">Martabak merupakan panganan yang dijajakan biasanya pada malam hari, dan biasanya ada dua jenis yaitu martabak manis dan martabak asin atau martabak telur. Ragam topping yang melimpah, serta aroma adonan yang dipanggang semakin menggoda, membuat martabak manis jadi kudapan favorit tak sedikit orang.
+    Martabak manis sendiri merupakan makanan yang diciptakan warga keturunan Tionghoa di wilayah Bangka Belitung. Awal topping martabak hanya berupa gula dan wijen yang disangrai. Tapi, seiring perkembangan zaman, taburan untuk martabak semakin bervariasi.</string>
+    <string name="desc_pecel_sayur">Makanan pecel biasanya dapat ditemukan di pasar-pasar tradisional atau di warung kaki lima pinggir jalan. Salah satu kota yang identik dengan hidangan pecel adalah kota Madiun, dengan pecel Madiun-nya. Kuliner pecel ketika dihidangkan biasanya memiliki pelengkap seperti kerecek, ayam, lele, atau tempe dan tahu. Beberapa daerah terkadang juga menggunakan mie kuning sebagai pelengkapnya.
+    Saking terkenalnya kuliner satu ini, sampai-sampai memiliki banyak jenis, seperti pecel Madiun, pecel Ponorogo, pecel bledek, pecel punten, pecel tumpang, pecel kecombrang, pecel ndeso, pecel kenci, dan pecel bunga turi. Masing-masing pecel tersebut memiliki ciri khas masing-masing yang berbeda antara satu dan lainya.</string>
+    <string name="desc_pempek">Pempek adalah makanan khas Palembang, Sumatera Selatan. Kuliner khas ini terbuat dari daging ikan yang digiling lembut dan dalam proses pembuatannya dicampur dengan tepung kanji atau tepung sagu. Pempek biasa disajikan bersama kuah berwarna kehitaman yang dikenal dengan nama cuko. Selain itu, pempek juga biasa dijual dengan berbagai variasi, seperti pempek lenjer, pempek kapal selam dan sebagainya.</string>
+    <string name="desc_pepes_ikan">Pepes ikan merupakan salah satu makanan khas Jawa Barat yang cukup popular di Indonesia. Makanan yang identik dengan bungkus daun pisang ini memiliki cita rasa yang gurih dan lezat. Pepes ikan dikenal dengan bumbunya yang meresap, sehingga hal ini selalu berhasil menggugah selera para penikmatnya.
+    Di samping itu, pepes ikan juga memiliki kandungan nutrisi yang baik untuk kesehatan. Pasalnya, dalam proses mengolah atau membuat pepes ikan tidak menyerap minyak yang terlalu banyak. Sehingga hal ini dipercaya pepes ikan berfungsi efektif untuk menjaga kesehatan tubuh.</string>
+    <string name="desc_perkedel">Perkedel adalah makanan khas Indonesia yang terbuat dari kentang yang telah digoreng atau direbus sebelum dilumatkan, lalu dicampur dengan daging cincang, irisan daun bawang serta daun seledri dan bumbu, dibentuk bulat-bulat gepeng, dicelupkan ke dalam kocokan telur ayam lalu digoreng.
+    Kentang yang direbus lebih sulit untuk dilekatkan karena kandungan air yang lebih banyak. Sehingga mayoritas pembuatan perkedel dengan perlakuan penggorengan terlebih dahulu pada kentang yang akan digunakan.
+    Selain terbuat dari kentang, ada pula perkedel yang terbuat dari ubi jalar, singkong yang telah direbus atau digoreng lalu dilumatkan. Serta ada pula perkedel yang terbuat dari tahu dan jagung yang sudah dilumatkan dicampur dengan bumbu dan telur ayam lalu digoreng.</string>
+    <string name="desc_putu_ayu">Putu Ayu merupakan kue tradisional Indonesia yang berasal dari Jawa Tengah. Akan tetapi, jika melihat catatan sejarah, kue ini juga diakui berasal dari negara lain, seperti Tiongkok. Dari penampilannya, visual kue ini terlihat sangat cantik dan menarik, sesuai dengan namanya ayu yang dalam bahasa Jawa berarti cantik.
+    Tak hanya penampilan visualnya yang cantik, kue ini pun memiliki rasa yang enak serta tekstur yang lembut ketika dimakan. Kue Putu Ayu ini memiliki cita rasa yang cenderung manis dan legit, sehingga membuat kue ini tak hanya digemari orang Indonesia, melainkan juga masyarakat Asia Tenggara lainnya.
+    Penampilan kue tradisional yang cantik ini berasal dari warnanya yang berundak dua, warna hijau di bagian bawah dan putih di bagian atas. Warna hijau yang terdapat pada kue ini berasal dari daun pandan, sementara warna putihnya berasal dari parutan kelapa.</string>
+    <string name="desc_sate_lilit">Sate Lilit adalah salah satu makanan khas Bali. Sate lilit awalnya merupakan hidangan khas dari daerah Klungkung. Meski demikian, hidangan ini sekarang mudah ditemukan di banyak lokasi di seputar Bali, seperti Denpasar, Badung, dan Gianyar. Karena itulah, sate lilit telah menjadi kuliner khas dari Bali, selain babi guling dan lawar.
+    Dibanding sate-sate yang dapat ditemui di berbagai daerah, sate lilit memiliki keunikan tersendiri. Sate yang umumnya ditemukan berupa potongan-potongan daging yang ditusukkan dengan sebuah tusuk. Sementara, sate lilit lebih menyerupai gumpalan adonan yang membalut tusuk sate.</string>
+    <string name="desc_sop_buntut">Sop buntut adalah salah satu masakan populer dalam masakan Indonesia, terbuat dari potongan ekor sapi yang dibumbui kemudian direbus dan dimasukkan ke dalam kuah kaldu sapi yang agak bening bersama irisan kentang, wortel, tomat, daun bawang, seledri dan taburan bawang goreng.
+        Ternyata, sop buntut bukanlah makanan yang berasal dari Indonesia. Makanan ini ternyata merupakan kuliner asal Perancis. Dikutip dari Intipseleb bersumber Paragram, nama lain dari sop buntut adalah Oxtail Soup. Oxtail soup pertama kali ditemukan pada abad ke -17 dan dipercaya berasal dari rombongan Huguenot Perancis dan Imigran Belgia.</string>
+    <string name="desc_mendoan">Mendoan adalah panganan yang terbuat dari tempe yang dibaluri tepung dan daun bawang, kemudian digoreng setengah matang. Panganan ini berasal dari Banyumas, Jawa Tengah yang kemudian menyebar ke berbagai daerah di Indonesia khususnya di wilayah Eks Keresidenan Banyumas, Jawa Tengah.
+    Tempe kemudian dilumuri dengan bumbu dan tepung, tak lupa dicampurkan irisan daun bawang. Lalu digoreng sebentar dalam minyak panas. Tempe mendoan disajikan panas-panas ditemani cabe rawit hijau dan atau sambal kecap manis. Cita rasanya hampir sama dengan tempe pada umumnya, tapi lebih tipis dengan ketebalan bahan mentah sekitar 3 inci.
+        Teksturnya pun tidak krispi melainkan lebih empuk dan kenyal dari adonan tepung yang digoreng setengah matang. Namun di balik ciri khasnya yang unik, bukan tanpa alasan tempe mendoan digoreng setengah matang.</string>
+    <string name="desc_papeda">Papeda adalah makanan berupa bubur sagu khas Maluku dan Papua yang biasanya disajikan dengan ikan tongkol atau bubara yang dibumbui dengan kunyit. Papeda berwarna putih dan bertekstur lengket seperti lem dengan rasa yang tawar. Rasanya yang tawar membuat papeda cocok disajikan bersama dengan ikan tongkol yang dibumbui dengan kunyit atau bersama dengan kuah kuning. Papeda juga kerap dinikmati dengan sayur yang diolah dari daun melinjo muda atau disebut dengan sayur ganemo.
+        Sebagai makanan tradisional yang khas, papeda menyimpan riwayat sejarah. Masyarakat adat Papua begitu menghormati sagu lebih dari sekadar makanan lezat. Suku-suku di Papua mengenal mitologi sagu dengan kisah penjelmaan manusia.
+    </string>
 
 </resources>
