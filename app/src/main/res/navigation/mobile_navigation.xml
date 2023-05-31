@@ -8,6 +8,7 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.foodhunt.ui.home.HomeFragment"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -15,4 +16,10 @@
         android:name="com.example.foodhunt.ui.maps.MapsFragment"
         android:label="@string/title_maps"
         tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/navigation_article"
+        android:name="com.example.foodhunt.article.ArticleFragment"
+        android:label="@string/article"
+        tools:layout="@layout/fragment_article"/>
 </navigation>
