@@ -73,4 +73,15 @@
         Sebagai makanan tradisional yang khas, papeda menyimpan riwayat sejarah. Masyarakat adat Papua begitu menghormati sagu lebih dari sekadar makanan lezat. Suku-suku di Papua mengenal mitologi sagu dengan kisah penjelmaan manusia.
     </string>
 
+    <string name="login">Login</string>
+    <string name="Register">Register</string>
+    <string name="nama">Nama</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Password</string>
+    <string name="email">Email</string>
+    <string name="user">Username</string>
+    <string name="signup_google">Continue With Google</string>
+
+
 </resources>
