@@ -18,6 +18,8 @@ import com.example.foodhunt.databinding.ActivityLoginBinding
 import com.example.foodhunt.model.UserModel
 import com.example.foodhunt.model.UserPreference
 
+// test
+
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
 
 class LoginActivity : AppCompatActivity() {
