@@ -5,55 +5,89 @@
     android:id="@+id/card_view"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:layout_marginLeft="8dp"
-    android:layout_marginTop="4dp"
-    android:layout_marginRight="8dp"
-    android:layout_marginBottom="4dp"
-    card_view:cardCornerRadius="4dp">
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:layout_constraintStart_toStartOf="parent"
+    card_view:layout_constraintTop_toTopOf="parent" >
+<!--    android:layout_gravity="center"-->
+<!--    android:layout_marginLeft="8dp"-->
+<!--    android:layout_marginTop="4dp"-->
+<!--    android:layout_marginRight="8dp"-->
+<!--    android:layout_marginBottom="4dp"-->
+<!--    card_view:cardCornerRadius="4dp">-->
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:padding="8dp">
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
 
         <ImageView
             android:id="@+id/iv_img"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginBottom="4dp"
-            android:scaleType="centerCrop"
-            tools:src="@tools:sample/avatars" />
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:id="@+id/tv_title"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="8dp"
-            android:layout_toEndOf="@id/iv_img"
-            android:layout_toRightOf="@id/iv_img"
-            android:textSize="18sp"
+            android:fontFamily="@font/poppinsbold"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toBottomOf="@+id/iv_img"
             android:textStyle="bold"
-            android:textColor="@color/black"
-            tools:text="@string/food_title"/>
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
 
-        <TextView
-            android:id="@+id/tv_desc"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/tv_title"
-            android:textColor="@color/black"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_toEndOf="@id/iv_img"
-            android:layout_toRightOf="@id/iv_img"
-            android:ellipsize="end"
-            android:maxLines="5"
-            tools:text="@string/food_description" />
 
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:padding="8dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/iv_img"-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_marginBottom="4dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            tools:src="@tools:sample/avatars" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:layout_toEndOf="@id/iv_img"-->
+<!--            android:layout_toRightOf="@id/iv_img"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@color/black"-->
+<!--            tools:text="@string/food_title"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_desc"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@id/tv_title"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_toEndOf="@id/iv_img"-->
+<!--            android:layout_toRightOf="@id/iv_img"-->
+<!--            android:ellipsize="end"-->
+<!--            android:maxLines="5"-->
+<!--            tools:text="@string/food_description" />-->
+
+<!--    </RelativeLayout>-->
 
 </androidx.cardview.widget.CardView>

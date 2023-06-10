@@ -23,7 +23,7 @@ class FoodAdapter(private val foodList : ArrayList<Food>, val listener: (Food) -
         val currentItem = foodList[position]
         holder.imageView.setImageResource(currentItem.imageFood)
         holder.titleFood.text = currentItem.titleFood
-        holder.descFood.text = currentItem.descFood
+//        holder.descFood.text = currentItem.descFood
         itemCount
     }
 
@@ -34,12 +34,12 @@ class FoodAdapter(private val foodList : ArrayList<Food>, val listener: (Food) -
     class FoodViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         val imageView : ImageView = itemView.findViewById(R.id.iv_img)
         val titleFood : TextView = itemView.findViewById(R.id.tv_title)
-        val descFood : TextView = itemView.findViewById(R.id.tv_desc)
+//        val descFood : TextView = itemView.findViewById(R.id.tv_desc)
 
         fun bindView(Food : Food, listener: (Food) -> Unit) {
             imageView.setImageResource(Food.imageFood)
             titleFood.text = Food.titleFood
-            descFood.text = Food.descFood
+//            descFood.text = Food.descFood
             itemView.setOnClickListener{
                 listener(Food)
             }

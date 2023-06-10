@@ -7,6 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavController
+import androidx.navigation.NavHostController
+import androidx.navigation.Navigation
 import com.example.foodhunt.R
 import com.example.foodhunt.camera.CameraActivity
 import com.example.foodhunt.databinding.FragmentHomeBinding
@@ -55,6 +58,18 @@ class HomeFragment : Fragment() {
         return binding.root
 
     }
+
+//    private lateinit var navController: NavController
+//
+//    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+//        super.onViewCreated(view, savedInstanceState)
+//
+//        navController = Navigation.findNavController(view)
+//
+//        button.setOnClickListener{
+//            navController.navigate(R.id.navigation_article)
+//        }
+//    }
 
     private fun action() {
         binding.FABCamera.setOnClickListener {

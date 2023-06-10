@@ -4,6 +4,8 @@
 
     <uses-feature android:name="android.hardware.camera" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -21,21 +23,7 @@
         android:theme="@style/Theme.FoodHunt"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCOc-Npq9n6foEHyAYDSzmH1oCz_P9qddg" />
-
-        <activity
-            android:name=".camera.CameraActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DetailFoodActivity"
+            android:name=".mapsview.activities.MainMapsActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -47,6 +35,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--        <activity-->
+<!--            android:name=".RuteActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".activities.RuteActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".mapsview.MapsNearbyActivity"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".welcome.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".register.RegisterActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAGLPndTFz0fIOujJ5vwTvvppMLFh3qVOI" />
+
+        <activity
+            android:name=".camera.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailFoodActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.core.content.FileProvider"

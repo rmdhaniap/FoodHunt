@@ -12,14 +12,15 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/navigation_article"
+        android:name="com.example.foodhunt.article.ArticleFragment"
+        android:label="@string/article"
+        tools:layout="@layout/fragment_article"/>
+
+    <fragment
         android:id="@+id/navigation_maps"
         android:name="com.example.foodhunt.ui.maps.MapsFragment"
         android:label="@string/title_maps"
         tools:layout="@layout/fragment_maps" />
 
-    <fragment
-        android:id="@+id/navigation_article"
-        android:name="com.example.foodhunt.article.ArticleFragment"
-        android:label="@string/article"
-        tools:layout="@layout/fragment_article"/>
 </navigation>

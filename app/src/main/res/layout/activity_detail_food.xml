@@ -11,9 +11,12 @@
         android:layout_width="0dp"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -24,9 +27,15 @@
         android:text="TextView"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:fontFamily="@font/poppinsbold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_item_photo" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_item_photo"
+        app:layout_constraintVertical_bias="0.0" />
+    />
 
     <TextView
         android:id="@+id/tv_item_description"
@@ -36,9 +45,26 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="TextView"
+        android:fontFamily="@font/poppinsregular"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_item_name" />
+        app:layout_constraintTop_toBottomOf="@+id/img_item_photo" />
+
+    <Button
+        android:id="@+id/btnFindMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FindMaps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <!--    app:layout_constraintTop_toBottomOf="@+id/img_item_photo"-->
+<!--    app:layout_constraintVertical_bias="0.0" />-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
