@@ -1,7 +1,7 @@
 # FoodHunt
 FoodHunt is an application that not only shows ingredients and recipes from scanned images, but we create other features, namely Find Resto  by using Google Maps API to show the closest places that sell food similar to those scanned, so the tourist can find out where to buy it if he wants to eat the food again at another time.
 
-## Fitur
+## Feature
 - Home
 - Camera/Scan feature
 - List Article
