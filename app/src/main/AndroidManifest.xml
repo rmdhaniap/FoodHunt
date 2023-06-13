@@ -23,6 +23,15 @@
         android:theme="@style/Theme.FoodHunt"
         tools:targetApi="31">
         <activity
+            android:name=".splashscreen.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".mapsview.activities.MainMapsActivity"
             android:exported="false" />
         <activity
@@ -34,16 +43,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-<!--        <activity-->
-<!--            android:name=".RuteActivity"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".activities.RuteActivity"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".mapsview.MapsNearbyActivity"-->
-<!--            android:exported="false" />-->
+        </activity> <!-- <activity -->
+        <!-- android:name=".RuteActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".activities.RuteActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".mapsview.MapsNearbyActivity" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".welcome.WelcomeActivity"
             android:exported="false" />
