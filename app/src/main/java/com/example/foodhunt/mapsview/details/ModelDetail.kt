@@ -5,7 +5,7 @@ import com.example.foodhunt.mapsview.nearby.ModelGeometry
 import com.google.gson.annotations.SerializedName
 
 class ModelDetail {
-    @SerializedName("geometry")
+    @SerializedName("image")
     lateinit var modelGeometry: ModelGeometry
 
     @SerializedName("opening_hours")
