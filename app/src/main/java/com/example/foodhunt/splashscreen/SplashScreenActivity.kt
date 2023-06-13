@@ -8,6 +8,7 @@ import android.os.Looper
 import androidx.core.splashscreen.SplashScreen
 import com.example.foodhunt.MainActivity
 import com.example.foodhunt.R
+import com.example.foodhunt.welcome.WelcomeActivity
 
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +16,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this@SplashScreenActivity, MainActivity::class.java))
+            startActivity(Intent(this@SplashScreenActivity, WelcomeActivity::class.java))
             finish()
         }, (3000))
     }

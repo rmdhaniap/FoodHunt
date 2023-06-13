@@ -37,17 +37,6 @@ class DetailFoodActivity : AppCompatActivity() {
             finish()
         }
 
-
-//        val file = File("path_to_your_image_file")
-//
-//        val requestOptions = RequestOptions()
-//            .override(800, 800) // Tentukan ukuran yang diinginkan
-//            .centerCrop()
-
-//        Glide.with(this)
-//            .load(file)
-//            .apply(requestOptions)
-//            .into(imageFood)
     }
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()

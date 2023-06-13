@@ -38,7 +38,6 @@ class MainMapsActivity : AppCompatActivity(), OnMapReadyCallback {
     lateinit var simpleLocation: SimpleLocation
     lateinit var progressDialog: ProgressDialog
     lateinit var mainMapsViewModel: MainMapsViewModel
-    // lateinit var mainAdapter: MainAdapter
     lateinit var strCurrentLocation: String
     var strCurrentLatitude = 0.0
     var strCurrentLongitude = 0.0
@@ -89,10 +88,6 @@ class MainMapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val supportMapFragment = supportFragmentManager.findFragmentById(R.id.mapFragment) as SupportMapFragment
         supportMapFragment.getMapAsync(this)
 
-//        mainAdapter = MainAdapter(this)
-//        rvListLocation.setLayoutManager(LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false))
-//        rvListLocation.setAdapter(mainAdapter)
-//        rvListLocation.setHasFixedSize(true)
     }
 
     private fun checkIfAlreadyhavePermission(): Boolean {

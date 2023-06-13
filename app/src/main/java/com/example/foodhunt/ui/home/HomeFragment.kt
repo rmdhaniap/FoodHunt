@@ -18,8 +18,6 @@ class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -32,13 +30,6 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-
-//        val textView: TextView = binding.text
-//        homeViewModel.text.observe(viewLifecycleOwner) {
-//            textView.text = it
-//        }
-//        return root
 
         binding.foodhuntImageView.setImageResource(R.drawable.user_image)
         binding.categoriesMeat.setImageResource(R.drawable.meat)
@@ -59,17 +50,6 @@ class HomeFragment : Fragment() {
 
     }
 
-//    private lateinit var navController: NavController
-//
-//    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-//        super.onViewCreated(view, savedInstanceState)
-//
-//        navController = Navigation.findNavController(view)
-//
-//        button.setOnClickListener{
-//            navController.navigate(R.id.navigation_article)
-//        }
-//    }
 
     private fun action() {
         binding.FABCamera.setOnClickListener {

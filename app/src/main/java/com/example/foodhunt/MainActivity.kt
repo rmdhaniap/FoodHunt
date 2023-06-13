@@ -17,9 +17,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.foodhunt.databinding.ActivityMainBinding
-import com.example.foodhunt.databinding.FragmentHomeBinding
 import com.example.foodhunt.model.UserPreference
-import com.example.foodhunt.ui.home.HomeFragment
 import com.example.foodhunt.welcome.WelcomeActivity
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")
@@ -28,7 +26,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var mainViewModel: MainViewModel
     private lateinit var binding: ActivityMainBinding
-//    lateinit var binding: FragmentHomeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,10 +39,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
-
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration.Builder(
                 R.id.navigation_home, R.id.navigation_article, R.id.navigation_maps
         ).build()
@@ -74,12 +68,6 @@ class MainActivity : AppCompatActivity() {
 
         mainViewModel.getUser().observe(this, { user ->
             if (user.isLogin){
-//                val fragment = HomeFragment()
-//                supportFragmentManager.beginTransaction()
-//                    .replace(R.id.container, fragment)
-//                    .addToBackStack(null)
-//                    .commit()
-                //binding.textHello.text = getString(R.string.greeting, user.name)
             } else {
                 startActivity(Intent(this, WelcomeActivity::class.java))
                 finish()
