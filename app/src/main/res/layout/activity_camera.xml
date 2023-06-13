@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/orange"
     tools:context=".camera.CameraActivity">
 
     <GridLayout
@@ -66,7 +67,8 @@
                         android:layout_alignParentLeft="true"
                         android:layout_marginLeft="25dp"
                         android:layout_marginTop="10dp"
-                        android:text="Gallery"/>
+                        android:text="Gallery"
+                        android:backgroundTint="@color/orange"/>
 
                     <Button
                         android:id="@+id/btnCamera"
@@ -77,7 +79,8 @@
                         android:layout_alignParentRight="true"
                         android:layout_marginRight="25dp"
                         android:layout_marginTop="10dp"
-                        android:text="Camera"/>
+                        android:text="Camera"
+                        android:backgroundTint="@color/orange"/>
 
                 </RelativeLayout>
 
@@ -93,7 +96,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="510dp"
-                android:text="Search"/>
+                android:text="Search"
+                android:backgroundTint="@color/orange"/>
         </androidx.cardview.widget.CardView>
 
     </GridLayout>

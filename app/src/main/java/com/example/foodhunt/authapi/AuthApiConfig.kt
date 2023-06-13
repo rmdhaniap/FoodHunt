@@ -15,7 +15,7 @@ object AuthApiConfig {
             .build()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://story-api.dicoding.dev/v1/")
+            .baseUrl("https://backend-l6hkbss2ja-et.a.run.app/login")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()

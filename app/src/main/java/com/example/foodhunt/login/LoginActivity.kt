@@ -4,8 +4,10 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.view.View
 import android.view.WindowInsets
 import android.view.WindowManager
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.datastore.core.DataStore
@@ -81,7 +83,7 @@ class LoginActivity : AppCompatActivity() {
                     loginViewModel.login()
                     AlertDialog.Builder(this).apply {
                         setTitle("Yeah!")
-                        setMessage("Anda berhasil login. Sudah tidak sabar untuk belajar ya?")
+                        setMessage("Anda berhasil login. Sudah tidak sabar untuk melihat aplikasi FoodHunt, ya?")
                         setPositiveButton("Lanjut") { _, _ ->
                             val intent = Intent(context, MainActivity::class.java)
                             intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK

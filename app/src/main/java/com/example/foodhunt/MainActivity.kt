@@ -4,8 +4,11 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.WindowInsets
 import android.view.WindowManager
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.datastore.core.DataStore
@@ -17,6 +20,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.foodhunt.databinding.ActivityMainBinding
+import com.example.foodhunt.login.LoginActivity
 import com.example.foodhunt.model.UserPreference
 import com.example.foodhunt.welcome.WelcomeActivity
 
@@ -73,5 +77,23 @@ class MainActivity : AppCompatActivity() {
                 finish()
             }
         })
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.menu_logout -> {
+                Intent(this, LoginActivity::class.java).also {
+                    startActivity(it)
+                    Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show()
+                    mainViewModel.logout()
+                }
+            }
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 }

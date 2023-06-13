@@ -71,7 +71,7 @@ class RegisterActivity : AppCompatActivity() {
                     registerViewModel.saveUser(UserModel(name, email, password, false))
                     AlertDialog.Builder(this).apply {
                         setTitle("Yeah!")
-                        setMessage("Akunnya sudah jadi nih. Yuk, login dan lihat makanan Indonesia.")
+                        setMessage("Akunnya sudah berhasil dibuat nih. Yuk, login dan lihat makanan Indonesia di aplikasi FoodHunt ini.")
                         setPositiveButton("Lanjut") { _, _ ->
                             finish()
                         }

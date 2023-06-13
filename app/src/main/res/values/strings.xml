@@ -5,7 +5,7 @@
     <string name="title_article">Article</string>
 
     <string name="user_image">User Image</string>
-    <string name="text_hello">Have a Good Day, Ramadhani</string>
+    <string name="text_hello">Have a Good Day, FoodHunt</string>
     <string name="text_categories">Categories</string>
     <string name="categories_meat">Meat</string>
     <string name="categories_healthy">Healthy</string>
@@ -87,5 +87,6 @@
     <string name="nothaveacount">Not have an account?</string>
     <string name="al_register">Register</string>
     <string name="tv_login">Login</string>
+    <string name="logout">logout</string>
 
 </resources>
