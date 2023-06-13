@@ -37,6 +37,8 @@ class DetailFoodActivity : AppCompatActivity() {
             finish()
         }
 
+        supportActionBar?.hide()
+
     }
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
